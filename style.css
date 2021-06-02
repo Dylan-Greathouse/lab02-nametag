@@ -1,18 +1,43 @@
 .top {
     background-color: red;
     color: white;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1rem;
+}
+h1, h2 {
+   margin: 0 
 }
 
  .middle {
    background-color: white;
+   text-align: center;
+   font-size: 30px;
+   font-family: cursive;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .bottom {
     background-color: red;
+    border-radius: 0px 0px 25px 25px;
 }
 main {
    height: 280px;
    width: 400px;
    display: grid;
    grid-template-rows: 2fr 2fr 1fr;
-   border-radius: 25px;
+   
 }
