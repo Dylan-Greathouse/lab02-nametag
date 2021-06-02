@@ -1,13 +1,18 @@
-head {
+.top {
+    background-color: red;
+    color: white;
+}
+
+ .middle {
+   background-color: white;
+}
+.bottom {
     background-color: red;
 }
-
-
-
-body{
-    font-family: cursive;
-}
-
-footer {
-    background-color: red
+main {
+   height: 280px;
+   width: 400px;
+   display: grid;
+   grid-template-rows: 2fr 2fr 1fr;
+   border-radius: 25px;
 }
