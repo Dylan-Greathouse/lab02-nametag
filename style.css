@@ -23,7 +23,7 @@ h1, h2 {
  .middle {
    background-color: white;
    text-align: center;
-   font-size: 30px;
+   font-size: 2rem;
    font-family: cursive;
    display: flex;
    flex-direction: column;
@@ -39,5 +39,6 @@ main {
    width: 400px;
    display: grid;
    grid-template-rows: 2fr 2fr 1fr;
-   
+   box-shadow: 10px 5px 5px gray;
+   border-radius: 25px;
 }
