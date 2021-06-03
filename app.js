@@ -15,6 +15,8 @@ const bottomSection = document.getElementById('bottom-section');
 const btn = document.getElementById('btn')
 const nameOutput = document.getElementById('name-output')
 const pronoun = document.getElementById('pronoun')
+const fontDemo = document.getElementById('font-demo');
+const fontBtn = document.getElementById('font-btn');
 
 submitBtn.addEventListener('click', ()=>{
     console.log(inputField.value);
@@ -28,4 +30,10 @@ submitBtn.addEventListener('click', ()=>{
 btn.addEventListener('click', ()=>{
     console.log(pronounField.value);
     pronoun.textContent = pronounField.value.toUpperCase();
+})
+
+fontBtn.addEventListener('click', ()=>{
+    console.log(fontDemo.value);
+    middleSection.style.fontFamily = fontDemo.value;
+ 
 })
